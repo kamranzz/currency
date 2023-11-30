@@ -1,0 +1,25 @@
+body {
+	/* background: linear-gradient(-45deg, #000000, #fff, #000000);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite; */
+	background: url(dollars.jpg) no-repeat center center fixed;
+	  /* Full height */
+	  /* height: 100%; */
+
+	  /* Center and scale the image nicely */
+	  /* background-position: center;
+	  background-repeat: no-repeat; */
+	  background-size: cover;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
